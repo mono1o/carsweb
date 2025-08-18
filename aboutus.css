@@ -1,0 +1,46 @@
+.line1{
+
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line2{
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name15{
+    margin: 30px 50px;
+    font-size: 50px;
+    background-color :rgb(189, 246, 227);
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(15, 151, 106);
+
+}
+.name25{
+    margin: 30px 300px;
+    font-size: 50px;
+     background-color :rgb(189, 246, 227);
+    border-radius: 30px;
+    padding: 10px;
+cursor: pointer;
+    color: rgb(15, 151, 106);
+
+}
+.name15:hover{
+    text-decoration :underline;
+}
+.name25:hover{
+    text-decoration :underline;
+}
+.inf{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    background-color :rgb(191, 230, 217);
+    border-radius: 15px;
+    padding: 15px;
+    display: none;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>story cars</title>
       <link rel="stylesheet" href="home.css">
+      <link rel="stylesheet" href="aboutus.css">
      
 </head>
 <body>
@@ -15,14 +16,73 @@
         <ul class="links">
             <li><a href="home.html">home</a></li>
             <li><a href="aboutus.html">about us</a></li>
-            <li><a href="">contact us</a></li>
-          <li > <button> log out</button> </li>
+            <li><a href="contactus.html">contact us</a></li>
+          <li > <button onclick="window.location.href='logout.html'"> log out</button> </li>
         </ul>
           
     </nav>
 </header>  
 <br>
 <br>
+<!-- the is part to about us-->
+ <section class="alla">
+  <div class="line1">
+<div class="name15" onclick="showinf('i')">
+Issam
+</div>
+<div  class="name15" onclick="showinf('s')">
+Saudy
+</div>
+<div  class="name15" onclick="showinf('f')">
+  Fathi
+</div>
+
+
+</div>
+
+  <div class="line2">
+<div  class="name25" onclick="showinf('t')">
+  Tarek
+</div>
+<div  class="name25" onclick="showinf('a')">
+  Asser
+</div>
+
+</div>
+
+<div class="inf" id="infbox" ></div>
+</section>
+<script>
+function showinf(person){
+  var inftext;
+if(person=="i"){
+inftext="name : isser mostafa <br> <br>  id : 2024155336 <br> <br>  work : sign up";
+}
+else if(person=="s"){
+inftext="name : saudy mostafa <br> <br> id : 2024155336 <br> <br> work : sign up"
+}
+else if(person=="a"){
+inftext="name : asser mostafa <br> <br> id : 2024155336 <br> <br> work : sign up"
+}
+else if(person=="t"){
+inftext="name : tarek mostafa <br> <br> id : 2024155336 <br> <br> work : sign up"
+}
+else if(person=="f"){
+inftext="name : fathe mostafa <br> <br> id : 2024155336 <br> <br> work : sign up"
+}
+ var box =document.getElementById("infbox")
+box.innerHTML=inftext;
+box.style.display="block";
+
+}
+
+
+
+
+
+
+
+</script>
 
     
   </body>
