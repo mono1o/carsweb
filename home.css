@@ -1,0 +1,145 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+body{
+  background-color: rgb(240, 255, 248);
+}
+.logo{
+  width: 100px;
+  height: 50px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 1200px;
+  background-color: rgb(255, 255, 255);
+}
+nav ul{
+list-style-type: none;
+display: flex;
+gap: 2rem;
+}
+.links a{
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+
+  color: rgb(40, 131, 40) ;
+}
+.links a:hover{
+  border-radius: 15px;
+   background-color: rgb(167, 208, 167);
+ 
+}
+button{
+ background-color: #e74c3c; 
+      color: white; 
+      border: none;
+      padding: 3px 10px;
+      border-radius: 15px; 
+      font-size: 16px; 
+      font-weight: bold;  
+      cursor: pointer; 
+      transition: 0.3s; 
+}
+.links button:hover{
+ 
+  background-color: #6f3ce7;
+}
+.marka {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.marka img{
+  width: 200px;
+  height: 100px;
+  margin: 50px 50px 0px;
+}
+.nmarka{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+
+  font-size: 50px;
+  
+}
+
+.nmarka a{
+  text-decoration: none;
+  color: black;
+  margin: 50px 70px;
+}
+.bmw0 p{
+  font-size: 100px;
+text-align: center;
+margin: 50px;
+}
+.bmw0 img{
+ width: 300px;
+ height: 150px;
+ border-radius: 16px;
+ background-color: aquamarine;
+ padding: 10px;
+  
+}
+
+.allbinf{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  margin: 0px 50px;
+  font-size: 15px;
+
+}
+.binf1{
+   border-radius: 16px;
+ background-color: aquamarine;
+ padding: 10px;
+  
+}
+.binf2{
+   border-radius: 16px;
+ background-color: aquamarine;
+ padding: 10px;
+  
+}
+.binf3{
+   border-radius: 16px;
+ background-color: aquamarine;
+ padding: 10px;
+}
+.binf1 button{
+   text-align: center;
+  width: 300px;
+  height: 35px;
+  margin-top: 3px
+}
+.binf2 button{
+   text-align: center;
+  width: 300px;
+  height: 35px;
+   margin-top: 3px
+}
+.binf3 button{
+   text-align: center;
+  width: 300px;
+  height: 35px;
+   margin-top: 3px
+}
+.binf1 h1{
+ padding: 2px 0px;
+}
+.binf2 h1{
+ padding: 2px 0px;
+}
+.binf3 h1{
+ padding: 2px 0px;
+}
