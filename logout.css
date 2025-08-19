@@ -1,0 +1,61 @@
+img{
+    width: 1500px;
+    height: 500px;
+  margin-left: 20px;
+    
+
+}
+p{
+  font-size: 30px;
+  text-align: center;
+
+}
+.allbuttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  margin: 50px 200px;
+}
+.blog1 {
+
+ background-color: #e74c3c; 
+      color: white; 
+      border: none;
+      padding: 6px 15px;
+      border-radius: 30px; 
+      font-size: 30px; 
+      font-weight: bold;  
+      cursor: pointer; 
+      transition: 0.3s; 
+
+
+}
+.blog2 {
+
+ background-color: #48ce67; 
+      color: white; 
+      border: none;
+      padding: 6px 15px;
+      border-radius: 30px; 
+      font-size: 30px; 
+      font-weight: bold;  
+      cursor: pointer; 
+      transition: 0.3s; 
+
+
+}
+.blog3 {
+
+ background-color: #5b60ed; 
+      color: white; 
+      border: none;
+    padding: 6px 15px;
+      border-radius: 30px; 
+      font-size: 30px; 
+      font-weight: bold;  
+      cursor: pointer; 
+      transition: 0.3s; 
+
+
+}
